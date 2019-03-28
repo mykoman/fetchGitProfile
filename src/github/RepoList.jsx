@@ -13,7 +13,7 @@ class RepoList extends Component {
                     this.props.userRepos.map(repo => 
                         {
                             return <Repo 
-                                    repon = {repo}
+                                    repo = {repo}
                                     key= {repo.id}
                                     {...this.props}
                                     />

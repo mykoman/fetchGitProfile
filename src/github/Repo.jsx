@@ -5,10 +5,10 @@ import React, { Component } from 'react';
 class Repo extends Component {
   
   render() {
-      const {repon} = this.props;
+      const {repo} = this.props;
     return (
         <div>
-            {repon.name}  ||{repon.description}
+            {repo.name}  ||{repo.description}
         </div>
     );
   }
